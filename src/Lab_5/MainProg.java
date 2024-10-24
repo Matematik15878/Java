@@ -21,8 +21,8 @@ public class MainProg {
         gift.add_candy(c_candy_1, 40);
         gift.add_candy(c_candy_2, 10);
         gift.add_candy(f_candy_1, 2);
-        gift.add_candy(f_candy_2, 15);
-        gift.add_candy(cr_candy_1, 3);
+        gift.add_candy(f_candy_2, 1);
+        gift.add_candy(cr_candy_1, 15);
 
         System.out.println("\nOriginal list of candies:");
         gift.show_gift_contents();
@@ -31,7 +31,7 @@ public class MainProg {
         gift.sort_by_chocolate_content();
         gift.show_gift_contents();
 
-        System.out.println("\nTotal weight of gift = " + gift.get_total_weight());
+        System.out.println("\nTotal weight of gift = " + gift.get_total_weight() + " g");
 
         System.out.println("\nTo display candies whose chocolate content falls within a range, enter the range.");
         int [] range = enter_chocolate_content();

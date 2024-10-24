@@ -24,7 +24,7 @@ public class FruitCandy extends Candy {
     // Метод виведення інформації про цукерку
     @Override
     public void print_info() {
-        System.out.println("Chocolate candy: " + get_name() + " | Flavor: " + flavor + " | Weight: " + get_weight() + " g | Sugar: " +
+        System.out.println("Fruit candy: " + get_name() + " | Flavor: " + flavor + " | Weight: " + get_weight() + " g | Sugar: " +
                 get_sugar_content() + "% | Chocolate: " + get_chocolate_content() + "% | Calories: " +
                 get_calories() + " kcal");
     }

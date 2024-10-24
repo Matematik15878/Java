@@ -20,11 +20,11 @@ public class ChildrensGift {
 
     // Метод виведення загальної маси
     public double get_total_weight() {
-        double totalWeight = 0;
+        double total_weight = 0;
         for (GiftItem item : items) {
-            totalWeight += item.get_total_weight();
+            total_weight += item.get_total_weight();
         }
-        return totalWeight;
+        return total_weight;
     }
 
     // Виведення вмісту подарунка
