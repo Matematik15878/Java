@@ -9,7 +9,7 @@ public class MainProg {
     // Виконуючий метод
     public static void main(String[] args) {
         System.out.println("The program is designed to create candies, add them to a gift for children, \n" +
-                "sort the gift by the weight of the candy and output candies containing a certain amount of chocolate");
+                "sort the gift by the chocolate content of the candy and output candies containing a certain amount of chocolate");
 
         ChocolateCandy c_candy_1 = new ChocolateCandy("Shokolpki", 8.4, 15, 80, 9.5, "milk");
         ChocolateCandy c_candy_2 = new ChocolateCandy("Karakum", 14.1, 15, 70, 24, "white");
@@ -27,7 +27,7 @@ public class MainProg {
         System.out.println("\nOriginal list of candies:");
         gift.show_gift_contents();
 
-        System.out.println("\nSorted by weight of candy list:");
+        System.out.println("\nSorted by chocolate content of candy list:");
         gift.sort_by_chocolate_content();
         gift.show_gift_contents();
 

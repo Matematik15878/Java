@@ -34,7 +34,7 @@ public class ChildrensGift {
         }
     }
 
-    // Сортування за вагою
+    // Сортування за вмістом шоколаду
     public void sort_by_chocolate_content() {
         items.sort(Comparator.comparing(item -> item.get_candy().get_chocolate_content()));
     }
